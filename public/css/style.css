@@ -1,0 +1,131 @@
+body{
+    font-family: "Plus Jakarta Sans", serif;
+    font-optical-sizing: auto;
+    font-weight:400;
+    font-style: normal;
+
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.container{
+    flex: 1;
+}
+.navbar{
+    height: 5rem;
+    background-color: white;
+}
+
+.fa-regular{
+    color:#fe424d;
+    font-size: 2rem;
+
+}
+
+.listing_link {
+    text-decoration: none !important;
+    color: black; /* Optional, ensures link color matches parent */
+}
+
+.listing_link:visited ,.listing_link:active ,.listing_link:hover  {
+    color: inherit; /* Ensure consistent styling for visited links */
+    text-decoration: none;
+}
+
+.nav-link{
+    color: #222222 !important;
+}
+
+.f-info-links a{
+    text-decoration: none;
+    color: #222222;
+}
+
+.f-info-links a:hover{
+    text-decoration: underline;
+}
+
+.f-info-social ,
+.f-info-links,
+.f-info-brand{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.f-info-social i{
+    font-size: 1.2rem;
+    margin-right: 1rem;
+}
+
+.f-info{
+    text-align: center;
+    height: 8rem;
+    background-color: #ebebeb;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: space-evenly;
+}
+
+/* Cards */
+.listing-card{
+    border: none !important;
+    margin-bottom: 2rem;
+}
+
+.card-img-top{
+    border-radius: 1rem !important;
+    width: 100% !important;
+    object-fit: cover !important;
+}
+
+.card-body{
+    padding: 0 !important;
+}
+
+.card-text{
+    font-weight: 400 !important;
+}
+
+
+/* Card effect */
+
+.card-img-overlay{
+    opacity: 0;
+}
+
+.card-img-overlay:hover{
+    opacity: 0.2;
+    background-color: rgba(255, 255, 255, 0.876);
+}
+
+/* NEw page */
+.add-btn{
+    background-color: #fe424d;
+    border: none !important;
+}
+
+/* Edit page */
+.edit-btn{
+    background-color: #fe424d;
+    border: none !important;
+}
+
+/* Show page */
+.show-img{
+    height: 30vh;
+
+}
+
+.btns-show{
+    display: flex;
+    margin-bottom: 1rem;
+}
+
+/* Rating style card */
+.rating-card{
+    margin-left: 1rem !important;
+}
